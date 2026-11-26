@@ -1,0 +1,1391 @@
+<!-- Settings (Light) -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>Artefact-lite</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background:linear-gradient(135deg,#D9E6FF 0%,#EADFFF 50%,#FFE6E0 100%);background-attachment:fixed;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#99f2b6","on-error-container":"#93000a","secondary-fixed":"#d9e2ff","on-error":"#ffffff","error-container":"#ffdad6","on-background":"#0c1b35","surface-container-lowest":"#ffffff","on-surface-variant":"#434655","on-secondary-fixed":"#0d1b36","on-secondary-container":"#525f7e","surface-dim":"#ccdafd","on-tertiary":"#ffffff","on-tertiary-fixed":"#00210f","surface-container":"#e8edff","outline-variant":"#c3c5d7","inverse-primary":"#b6c4ff","primary-container":"#1f55e0","on-primary":"#ffffff","secondary-container":"#cdd9fe","primary-fixed":"#dce1ff","outline":"#747686","inverse-on-surface":"#edf0ff","surface":"#f9f9ff","surface-variant":"#d7e2ff","surface-bright":"#f9f9ff","surface-tint":"#1851dc","inverse-surface":"#22304b","on-primary-fixed-variant":"#003ab1","surface-container-highest":"#d7e2ff","primary":"#003db8","surface-container-low":"#f1f3ff","secondary-fixed-dim":"#b9c6ea","secondary":"#525e7d","tertiary-container":"#0d7141","primary-fixed-dim":"#b6c4ff","on-primary-container":"#d6ddff","background":"#f9f9ff","error":"#ba1a1a","on-secondary":"#ffffff","on-primary-fixed":"#00164f","on-tertiary-fixed-variant":"#00522d","tertiary-fixed-dim":"#81d99f","on-surface":"#0c1b35","tertiary-fixed":"#9cf6b9","surface-container-high":"#e0e8ff","on-secondary-fixed-variant":"#3a4664","tertiary":"#00562f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","gutter":"1rem","margin":"1.25rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.25rem"},"fontFamily":{"title-lg":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"title-lg":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-lg":["17px",{"lineHeight":"24px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between"><h1 class="font-title-lg text-title-lg text-on-surface truncate">Settings</h1><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full flex-1 px-margin pt-16 pb-24 bg-surface/0"><div class="flex flex-col w-full gap-4">
+<!-- Prominent Privacy Note Card -->
+<section class="w-full rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl p-5 shadow-[0_8px_24px_rgba(20,33,61,0.10)]" style="border: 1px solid rgba(255, 255, 255, 0.9);">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-2xl bg-tertiary-fixed flex items-center justify-center shrink-0 text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1 gap-1">
+<span class="font-label-lg text-label-lg text-on-surface">Local-First Privacy</span>
+<p class="font-body-md text-body-md text-on-surface-variant">No internet permission. Everything stays on your phone.</p>
+</div>
+</div>
+</section>
+<!-- Appearance / Theme Card -->
+<section class="w-full rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl p-5 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col gap-3" style="border: 1px solid rgba(255, 255, 255, 0.9);">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-container text-[22px]">palette</span>
+<h2 class="font-title-lg text-title-lg text-on-surface">Theme</h2>
+</div>
+<div aria-label="Theme selection" class="grid grid-cols-3 gap-2 p-1 rounded-2xl bg-surface-container-low/70" id="theme-selector" role="radiogroup">
+<button class="theme-btn min-h-[48px] rounded-xl flex items-center justify-center gap-1.5 font-label-lg text-label-lg bg-primary-container text-on-primary shadow-sm transition-all" data-theme="light" type="button">
+<span class="material-symbols-outlined text-[18px]">light_mode</span>
+<span>Light</span>
+</button>
+<button class="theme-btn min-h-[48px] rounded-xl flex items-center justify-center gap-1.5 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-all" data-theme="dark" type="button">
+<span class="material-symbols-outlined text-[18px]">dark_mode</span>
+<span>Dark</span>
+</button>
+<button class="theme-btn min-h-[48px] rounded-xl flex items-center justify-center gap-1.5 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-all" data-theme="system" type="button">
+<span class="material-symbols-outlined text-[18px]">contrast</span>
+<span>System</span>
+</button>
+</div>
+</section>
+<!-- Read-Aloud & Language Card -->
+<section class="w-full rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl p-2 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col gap-1" style="border: 1px solid rgba(255, 255, 255, 0.9);">
+<!-- Read-aloud voice -->
+<div class="flex items-center justify-between min-h-[64px] px-3 py-2 rounded-2xl hover:bg-surface-container-lowest/50 transition-colors">
+<div class="flex items-center gap-3.5 min-w-0 flex-1">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center shrink-0 text-on-primary-fixed">
+<span class="material-symbols-outlined text-[20px]">record_voice_over</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface">Read-aloud voice</span>
+<span class="font-body-md text-body-md text-on-surface-variant truncate" id="voice-label">Calm — English (UK)</span>
+</div>
+</div>
+<button aria-label="Preview read-aloud voice" class="min-w-[48px] min-h-[48px] rounded-xl flex items-center justify-center text-primary-container hover:bg-primary-fixed/50 transition-colors shrink-0" id="voice-preview-btn" type="button">
+<span class="material-symbols-outlined text-[24px]" id="voice-preview-icon">play_circle</span>
+</button>
+</div>
+<!-- Language -->
+<button class="w-full flex items-center justify-between min-h-[64px] px-3 py-2 rounded-2xl hover:bg-surface-container-lowest/50 transition-colors text-left" id="language-row-btn" type="button">
+<div class="flex items-center gap-3.5 min-w-0 flex-1">
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed flex items-center justify-center shrink-0 text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">translate</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface">Language</span>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">English</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[22px] shrink-0">chevron_right</span>
+</button>
+</section>
+<!-- About & Open Source Card -->
+<section class="w-full rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl p-2 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col" style="border: 1px solid rgba(255, 255, 255, 0.9);">
+<button class="w-full flex items-center justify-between min-h-[64px] px-3 py-2 rounded-2xl hover:bg-surface-container-lowest/50 transition-colors text-left" id="opensource-btn" type="button">
+<div class="flex items-center gap-3.5 min-w-0 flex-1">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[20px]">code</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface">Built with open source</span>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">View third-party licences</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[22px] shrink-0 transition-transform duration-200" id="opensource-chevron">expand_more</span>
+</button>
+<!-- Expandable Licences Drawer -->
+<div class="hidden px-3 pb-3 pt-1 flex-col gap-2" id="opensource-drawer">
+<div class="rounded-xl bg-surface-container-low/70 p-3 flex flex-col gap-1">
+<span class="font-label-md text-label-md text-on-surface">PDFium & Apache-2.0</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Local document rendering engine</span>
+</div>
+<div class="rounded-xl bg-surface-container-low/70 p-3 flex flex-col gap-1">
+<span class="font-label-md text-label-md text-on-surface">Material Symbols</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Apache License 2.0</span>
+</div>
+</div>
+</section>
+</div>
+<script>
+  (function () {
+    var themeBtns = document.querySelectorAll('.theme-btn');
+    themeBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        themeBtns.forEach(function (b) {
+          b.classList.remove('bg-primary-container', 'text-on-primary', 'shadow-sm');
+          b.classList.add('text-on-surface-variant');
+        });
+        btn.classList.remove('text-on-surface-variant');
+        btn.classList.add('bg-primary-container', 'text-on-primary', 'shadow-sm');
+      });
+    });
+
+    var previewBtn = document.getElementById('voice-preview-btn');
+    var previewIcon = document.getElementById('voice-preview-icon');
+    var previewTimer = null;
+    if (previewBtn && previewIcon) {
+      previewBtn.addEventListener('click', function () {
+        if (previewTimer) {
+          clearTimeout(previewTimer);
+          previewTimer = null;
+          previewIcon.textContent = 'play_circle';
+          return;
+        }
+        previewIcon.textContent = 'graphic_eq';
+        previewTimer = setTimeout(function () {
+          previewIcon.textContent = 'play_circle';
+          previewTimer = null;
+        }, 2200);
+      });
+    }
+
+    var osBtn = document.getElementById('opensource-btn');
+    var osDrawer = document.getElementById('opensource-drawer');
+    var osChevron = document.getElementById('opensource-chevron');
+    if (osBtn && osDrawer && osChevron) {
+      osBtn.addEventListener('click', function () {
+        var isHidden = osDrawer.classList.contains('hidden');
+        if (isHidden) {
+          osDrawer.classList.remove('hidden');
+          osDrawer.classList.add('flex');
+          osChevron.style.transform = 'rotate(180deg)';
+        } else {
+          osDrawer.classList.add('hidden');
+          osDrawer.classList.remove('flex');
+          osChevron.style.transform = 'rotate(0deg)';
+        }
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe px-margin mb-space-md pointer-events-none" data-active-classes="text-primary-container"><div class="pointer-events-auto flex justify-around items-center h-16 px-space-sm rounded-[28px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)]" style="border:1px solid rgba(255,255,255,0.9);"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="desk" href="#"><span class="material-symbols-outlined text-[24px]">home</span><span class="font-label-sm text-label-sm">Desk</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="files" href="#"><span class="material-symbols-outlined text-[24px]">folder</span><span class="font-label-sm text-label-sm">Files</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="tools" href="#"><span class="material-symbols-outlined text-[24px]">handyman</span><span class="font-label-sm text-label-sm">Tools</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm transition-colors text-primary-container" data-path="settings" href="#"><span class="material-symbols-outlined text-[24px]">settings</span><span class="font-label-sm text-label-sm">Settings</span></a></div></nav></body></html>
+
+<!-- Voice Memos (Light) -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><title>Artefact-lite</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background:linear-gradient(135deg,#D9E6FF 0%,#EADFFF 50%,#FFE6E0 100%);background-attachment:fixed;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#99f2b6","on-error-container":"#93000a","secondary-fixed":"#d9e2ff","on-error":"#ffffff","error-container":"#ffdad6","on-background":"#0c1b35","surface-container-lowest":"#ffffff","on-surface-variant":"#434655","on-secondary-fixed":"#0d1b36","on-secondary-container":"#525f7e","surface-dim":"#ccdafd","on-tertiary":"#ffffff","on-tertiary-fixed":"#00210f","surface-container":"#e8edff","outline-variant":"#c3c5d7","inverse-primary":"#b6c4ff","primary-container":"#1f55e0","on-primary":"#ffffff","secondary-container":"#cdd9fe","primary-fixed":"#dce1ff","outline":"#747686","inverse-on-surface":"#edf0ff","surface":"#f9f9ff","surface-variant":"#d7e2ff","surface-bright":"#f9f9ff","surface-tint":"#1851dc","inverse-surface":"#22304b","on-primary-fixed-variant":"#003ab1","surface-container-highest":"#d7e2ff","primary":"#003db8","surface-container-low":"#f1f3ff","secondary-fixed-dim":"#b9c6ea","secondary":"#525e7d","tertiary-container":"#0d7141","primary-fixed-dim":"#b6c4ff","on-primary-container":"#d6ddff","background":"#f9f9ff","error":"#ba1a1a","on-secondary":"#ffffff","on-primary-fixed":"#00164f","on-tertiary-fixed-variant":"#00522d","tertiary-fixed-dim":"#81d99f","on-surface":"#0c1b35","tertiary-fixed":"#9cf6b9","surface-container-high":"#e0e8ff","on-secondary-fixed-variant":"#3a4664","tertiary":"#00562f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","gutter":"1rem","margin":"1.25rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.25rem"},"fontFamily":{"title-lg":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"title-lg":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-lg":["17px",{"lineHeight":"24px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}}</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><button aria-label="Back" class="w-12 h-12 -ml-3 flex items-center justify-center text-on-surface hover:text-primary-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><h1 class="font-title-lg text-title-lg text-on-surface truncate">Voice Memos</h1></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full flex-1 px-margin pt-16 pb-safe bg-surface/0"><div class="flex flex-col w-full gap-space-lg pb-8">
+<section class="w-full rounded-3xl bg-surface/70 backdrop-blur-xl shadow-lg p-5 flex flex-col items-center gap-space-md">
+<div class="w-full flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container transition-transform duration-300" id="rec-dot"></span>
+<span class="font-label-md text-label-md text-on-surface-variant" id="rec-status">Ready to capture</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-low/80 px-2.5 py-1 rounded-full">Local · WAV</span>
+</div>
+<div class="w-full h-24 rounded-2xl bg-surface-container-low/60 flex items-center justify-center px-4 overflow-hidden">
+<svg aria-hidden="true" class="w-full h-16 text-primary-container" fill="none" id="waveform-svg" viewbox="0 0 280 64">
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="16" opacity="0.35" rx="2" width="4" x="8" y="24"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="32" opacity="0.55" rx="2" width="4" x="18" y="16"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="24" opacity="0.45" rx="2" width="4" x="28" y="20"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="44" opacity="0.75" rx="2" width="4" x="38" y="10"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="28" opacity="0.6" rx="2" width="4" x="48" y="18"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="52" opacity="0.9" rx="2" width="4" x="58" y="6"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="36" opacity="0.8" rx="2" width="4" x="68" y="14"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="20" opacity="0.5" rx="2" width="4" x="78" y="22"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="40" opacity="0.85" rx="2" width="4" x="88" y="12"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="56" rx="2" width="4" x="98" y="4"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="32" opacity="0.75" rx="2" width="4" x="108" y="16"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="24" opacity="0.6" rx="2" width="4" x="118" y="20"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="48" opacity="0.95" rx="2" width="4" x="128" y="8"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="36" opacity="0.8" rx="2" width="4" x="138" y="14"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="16" opacity="0.45" rx="2" width="4" x="148" y="24"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="28" opacity="0.65" rx="2" width="4" x="158" y="18"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="44" opacity="0.85" rx="2" width="4" x="168" y="10"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="20" opacity="0.5" rx="2" width="4" x="178" y="22"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="36" opacity="0.75" rx="2" width="4" x="188" y="14"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="48" opacity="0.9" rx="2" width="4" x="198" y="8"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="24" opacity="0.55" rx="2" width="4" x="208" y="20"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="32" opacity="0.7" rx="2" width="4" x="218" y="16"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="16" opacity="0.4" rx="2" width="4" x="228" y="24"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="28" opacity="0.6" rx="2" width="4" x="238" y="18"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="20" opacity="0.45" rx="2" width="4" x="248" y="22"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="12" opacity="0.3" rx="2" width="4" x="258" y="26"></rect>
+<rect class="wave-bar transition-all duration-150" fill="currentColor" height="8" opacity="0.25" rx="2" width="4" x="268" y="28"></rect>
+</svg>
+</div>
+<div class="flex flex-col items-center gap-space-xs">
+<div class="font-headline-lg text-headline-lg text-on-surface tabular-nums tracking-tight" id="rec-timer">00:42</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Tap to record or pause</p>
+</div>
+<div class="relative flex items-center justify-center pt-1 pb-1">
+<span class="absolute w-20 h-20 rounded-full bg-primary-container/20 scale-90 opacity-0 transition-all duration-500" id="rec-halo"></span>
+<button aria-label="Record voice memo" class="relative w-16 h-16 rounded-full bg-primary-container text-on-primary shadow-md flex items-center justify-center active:scale-95 transition-transform duration-150" id="rec-btn" type="button">
+<span class="material-symbols-outlined text-[28px]" id="rec-icon" style="font-variation-settings: 'FILL' 1;">mic</span>
+</button>
+</div>
+</section>
+<section class="flex flex-col w-full gap-space-sm">
+<div class="flex items-center justify-between px-1">
+<h2 class="font-title-lg text-title-lg text-on-surface">Local recordings</h2>
+<span class="font-label-md text-label-md text-on-surface-variant">3 memos</span>
+</div>
+<div class="flex flex-col w-full gap-space-sm">
+<article class="memo-card w-full rounded-2xl bg-surface/70 backdrop-blur-xl shadow-sm px-4 py-3 flex items-center justify-between gap-space-sm transition-all duration-200">
+<div class="flex items-center gap-space-sm min-w-0 flex-1">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed text-on-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">graphic_eq</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-body-lg text-body-lg font-semibold text-on-surface truncate">Morning idea</h3>
+<p class="font-label-md text-label-md text-on-surface-variant truncate">01:18 · Today</p>
+</div>
+</div>
+<button aria-label="Play Morning idea" class="play-btn w-12 h-12 rounded-full bg-surface-container-low text-primary-container flex items-center justify-center shrink-0 active:scale-95 transition-all duration-150" type="button">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+</article>
+<article class="memo-card w-full rounded-2xl bg-surface/70 backdrop-blur-xl shadow-sm px-4 py-3 flex items-center justify-between gap-space-sm transition-all duration-200">
+<div class="flex items-center gap-space-sm min-w-0 flex-1">
+<div class="w-10 h-10 rounded-xl bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">graphic_eq</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-body-lg text-body-lg font-semibold text-on-surface truncate">Book quote</h3>
+<p class="font-label-md text-label-md text-on-surface-variant truncate">00:34 · Yesterday</p>
+</div>
+</div>
+<button aria-label="Play Book quote" class="play-btn w-12 h-12 rounded-full bg-surface-container-low text-primary-container flex items-center justify-center shrink-0 active:scale-95 transition-all duration-150" type="button">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+</article>
+<article class="memo-card w-full rounded-2xl bg-surface/70 backdrop-blur-xl shadow-sm px-4 py-3 flex items-center justify-between gap-space-sm transition-all duration-200">
+<div class="flex items-center gap-space-sm min-w-0 flex-1">
+<div class="w-10 h-10 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">graphic_eq</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-body-lg text-body-lg font-semibold text-on-surface truncate">Grocery reminder</h3>
+<p class="font-label-md text-label-md text-on-surface-variant truncate">00:19 · 11 Oct</p>
+</div>
+</div>
+<button aria-label="Play Grocery reminder" class="play-btn w-12 h-12 rounded-full bg-surface-container-low text-primary-container flex items-center justify-center shrink-0 active:scale-95 transition-all duration-150" type="button">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+</article>
+</div>
+</section>
+</div>
+<script>
+  (function () {
+    const recBtn = document.getElementById('rec-btn');
+    const recIcon = document.getElementById('rec-icon');
+    const recHalo = document.getElementById('rec-halo');
+    const recDot = document.getElementById('rec-dot');
+    const recStatus = document.getElementById('rec-status');
+    const recTimer = document.getElementById('rec-timer');
+    const waveBars = document.querySelectorAll('.wave-bar');
+
+    let isRecording = false;
+    let seconds = 42;
+    let timerInterval = null;
+    let waveInterval = null;
+
+    function formatTime(sec) {
+      const m = String(Math.floor(sec / 60)).padStart(2, '0');
+      const s = String(sec % 60).padStart(2, '0');
+      return m + ':' + s;
+    }
+
+    function animateWaveform() {
+      waveBars.forEach(function (bar) {
+        const h = Math.floor(Math.random() * 44) + 10;
+        const y = Math.floor((64 - h) / 2);
+        bar.setAttribute('height', h);
+        bar.setAttribute('y', y);
+      });
+    }
+
+    recBtn.addEventListener('click', function () {
+      isRecording = !isRecording;
+      if (isRecording) {
+        recIcon.textContent = 'stop';
+        recStatus.textContent = 'Recording...';
+        recHalo.classList.remove('opacity-0', 'scale-90');
+        recHalo.classList.add('opacity-100', 'scale-110', 'animate-pulse');
+        recDot.classList.add('scale-125');
+        timerInterval = setInterval(function () {
+          seconds += 1;
+          recTimer.textContent = formatTime(seconds);
+        }, 1000);
+        waveInterval = setInterval(animateWaveform, 160);
+      } else {
+        recIcon.textContent = 'mic';
+        recStatus.textContent = 'Ready to capture';
+        recHalo.classList.add('opacity-0', 'scale-90');
+        recHalo.classList.remove('opacity-100', 'scale-110', 'animate-pulse');
+        recDot.classList.remove('scale-125');
+        clearInterval(timerInterval);
+        clearInterval(waveInterval);
+      }
+    });
+
+    const playButtons = document.querySelectorAll('.play-btn');
+    playButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        const icon = btn.querySelector('.material-symbols-outlined');
+        const isPlaying = icon.textContent.trim() === 'pause';
+
+        playButtons.forEach(function (otherBtn) {
+          const otherIcon = otherBtn.querySelector('.material-symbols-outlined');
+          otherIcon.textContent = 'play_arrow';
+          otherBtn.classList.remove('bg-primary-container', 'text-on-primary');
+          otherBtn.classList.add('bg-surface-container-low', 'text-primary-container');
+        });
+
+        if (!isPlaying) {
+          icon.textContent = 'pause';
+          btn.classList.remove('bg-surface-container-low', 'text-primary-container');
+          btn.classList.add('bg-primary-container', 'text-on-primary');
+        }
+      });
+    });
+  })();
+</script></main></body></html>
+
+<!-- Note Editor (Light) -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><title>Artefact-lite</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background:linear-gradient(135deg,#D9E6FF 0%,#EADFFF 50%,#FFE6E0 100%);background-attachment:fixed;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#99f2b6","on-error-container":"#93000a","secondary-fixed":"#d9e2ff","on-error":"#ffffff","error-container":"#ffdad6","on-background":"#0c1b35","surface-container-lowest":"#ffffff","on-surface-variant":"#434655","on-secondary-fixed":"#0d1b36","on-secondary-container":"#525f7e","surface-dim":"#ccdafd","on-tertiary":"#ffffff","on-tertiary-fixed":"#00210f","surface-container":"#e8edff","outline-variant":"#c3c5d7","inverse-primary":"#b6c4ff","primary-container":"#1f55e0","on-primary":"#ffffff","secondary-container":"#cdd9fe","primary-fixed":"#dce1ff","outline":"#747686","inverse-on-surface":"#edf0ff","surface":"#f9f9ff","surface-variant":"#d7e2ff","surface-bright":"#f9f9ff","surface-tint":"#1851dc","inverse-surface":"#22304b","on-primary-fixed-variant":"#003ab1","surface-container-highest":"#d7e2ff","primary":"#003db8","surface-container-low":"#f1f3ff","secondary-fixed-dim":"#b9c6ea","secondary":"#525e7d","tertiary-container":"#0d7141","primary-fixed-dim":"#b6c4ff","on-primary-container":"#d6ddff","background":"#f9f9ff","error":"#ba1a1a","on-secondary":"#ffffff","on-primary-fixed":"#00164f","on-tertiary-fixed-variant":"#00522d","tertiary-fixed-dim":"#81d99f","on-surface":"#0c1b35","tertiary-fixed":"#9cf6b9","surface-container-high":"#e0e8ff","on-secondary-fixed-variant":"#3a4664","tertiary":"#00562f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","gutter":"1rem","margin":"1.25rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.25rem"},"fontFamily":{"title-lg":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"title-lg":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-lg":["17px",{"lineHeight":"24px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><button aria-label="Back" class="w-12 h-12 -ml-3 flex items-center justify-center text-on-surface hover:text-primary-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><h1 class="font-title-lg text-title-lg text-on-surface truncate">Note Editor</h1></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full flex-1 px-margin pt-16 pb-safe bg-surface/0"><div class="flex flex-col w-full gap-space-md pb-space-xl">
+<!-- Note Meta & Local Save Status -->
+<div class="flex items-center justify-between gap-space-sm px-1">
+<div class="flex flex-col min-w-0">
+<input aria-label="Note title" class="bg-transparent font-headline-sm text-headline-sm text-on-surface focus:outline-none truncate" id="note-title" type="text" value="Weekly Reflections"/>
+<span class="font-label-sm text-label-sm text-on-surface-variant" id="note-meta">
+        Oct 24 • 118 words
+      </span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface/75 backdrop-blur-md shadow-sm shrink-0 transition-all duration-300" id="save-badge">
+<span class="material-symbols-outlined text-[16px] text-tertiary" id="save-icon" style="font-variation-settings: 'FILL' 1;">
+        check_circle
+      </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant" id="save-text">
+        Saved locally
+      </span>
+</div>
+</div>
+<!-- Glass Formatting Toolbar -->
+<div aria-label="Text formatting" class="flex items-center justify-between gap-1 p-1.5 rounded-2xl bg-surface/75 backdrop-blur-xl shadow-md sticky top-16 z-30" role="toolbar">
+<div class="flex items-center gap-1">
+<button aria-label="Bold" aria-pressed="false" class="fmt-btn w-12 h-12 rounded-xl flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-cmd="bold" type="button">
+<span class="material-symbols-outlined text-[22px]">format_bold</span>
+</button>
+<button aria-label="Italic" aria-pressed="false" class="fmt-btn w-12 h-12 rounded-xl flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-cmd="italic" type="button">
+<span class="material-symbols-outlined text-[22px]">format_italic</span>
+</button>
+<button aria-label="Bulleted list" aria-pressed="false" class="fmt-btn w-12 h-12 rounded-xl flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-cmd="insertUnorderedList" type="button">
+<span class="material-symbols-outlined text-[22px]">format_list_bulleted</span>
+</button>
+<button aria-label="Heading" aria-pressed="false" class="fmt-btn w-12 h-12 rounded-xl flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-cmd="formatBlock" data-val="H2" type="button">
+<span class="material-symbols-outlined text-[22px]">title</span>
+</button>
+</div>
+<button aria-label="Undo" class="w-12 h-12 rounded-xl flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" id="undo-btn" type="button">
+<span class="material-symbols-outlined text-[22px]">undo</span>
+</button>
+</div>
+<!-- Generous Writing Area -->
+<div class="rounded-3xl bg-surface-container-lowest/85 backdrop-blur-xl shadow-lg p-5">
+<div aria-label="Note content" aria-multiline="true" class="min-h-[420px] focus:outline-none font-body-lg text-body-lg text-on-surface space-y-4" contenteditable="true" id="editor-body" role="textbox">
+<p>
+        This week felt noticeably calmer once I blocked off two-hour morning windows for deep reading. Stepping away from constant notifications made it much easier to finish the architecture draft without rushing.
+      </p>
+<h2 class="font-headline-sm text-headline-sm text-on-surface pt-2">
+        What worked well
+      </h2>
+<ul class="list-disc pl-5 space-y-2 text-on-surface">
+<li>Keeping all research PDFs in a single local folder before starting notes.</li>
+<li>Taking a 15-minute walk after lunch instead of scrolling through feeds.</li>
+<li>Reviewing open tasks every Friday afternoon so Monday feels clear.</li>
+</ul>
+<p>
+        Next week, I want to carry that same quiet pace into the Q4 planning doc and keep meetings strictly to the afternoon.
+      </p>
+</div>
+</div>
+</div>
+<script>
+  (function () {
+    const editor = document.getElementById('editor-body');
+    const titleInput = document.getElementById('note-title');
+    const metaEl = document.getElementById('note-meta');
+    const saveText = document.getElementById('save-text');
+    const saveIcon = document.getElementById('save-icon');
+    const fmtButtons = document.querySelectorAll('.fmt-btn');
+    const undoBtn = document.getElementById('undo-btn');
+
+    let saveTimer = null;
+
+    function updateWordCount() {
+      const text = (editor.innerText || '').trim();
+      const words = text ? text.split(/\s+/).length : 0;
+      metaEl.textContent = 'Oct 24 \u2022 ' + words + (words === 1 ? ' word' : ' words');
+    }
+
+    function triggerLocalSave() {
+      saveText.textContent = 'Saving...';
+      saveIcon.textContent = 'sync';
+      saveIcon.classList.remove('text-tertiary');
+      saveIcon.classList.add('text-primary-container');
+
+      clearTimeout(saveTimer);
+      saveTimer = setTimeout(function () {
+        saveText.textContent = 'Saved locally';
+        saveIcon.textContent = 'check_circle';
+        saveIcon.classList.remove('text-primary-container');
+        saveIcon.classList.add('text-tertiary');
+      }, 450);
+    }
+
+    function syncToolbarState() {
+      fmtButtons.forEach(function (btn) {
+        const cmd = btn.getAttribute('data-cmd');
+        let active = false;
+        if (cmd === 'formatBlock') {
+          active = document.queryCommandValue('formatBlock').toUpperCase() === 'H2';
+        } else {
+          active = document.queryCommandState(cmd);
+        }
+        btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+        if (active) {
+          btn.classList.add('bg-primary-fixed', 'text-primary');
+          btn.classList.remove('text-on-surface-variant');
+        } else {
+          btn.classList.remove('bg-primary-fixed', 'text-primary');
+          btn.classList.add('text-on-surface-variant');
+        }
+      });
+    }
+
+    fmtButtons.forEach(function (btn) {
+      btn.addEventListener('mousedown', function (e) {
+        e.preventDefault();
+        const cmd = btn.getAttribute('data-cmd');
+        const val = btn.getAttribute('data-val') || null;
+        if (cmd === 'formatBlock') {
+          const current = document.queryCommandValue('formatBlock').toUpperCase();
+          document.execCommand(cmd, false, current === 'H2' ? 'P' : val);
+        } else {
+          document.execCommand(cmd, false, val);
+        }
+        syncToolbarState();
+        updateWordCount();
+        triggerLocalSave();
+      });
+    });
+
+    undoBtn.addEventListener('mousedown', function (e) {
+      e.preventDefault();
+      document.execCommand('undo', false, null);
+      syncToolbarState();
+      updateWordCount();
+      triggerLocalSave();
+    });
+
+    editor.addEventListener('input', function () {
+      updateWordCount();
+      triggerLocalSave();
+    });
+
+    editor.addEventListener('keyup', syncToolbarState);
+    editor.addEventListener('mouseup', syncToolbarState);
+    titleInput.addEventListener('input', triggerLocalSave);
+  })();
+</script></main></body></html>
+
+<!-- Quick Preview (Light) -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><title>Artefact-lite</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background:linear-gradient(135deg,#D9E6FF 0%,#EADFFF 50%,#FFE6E0 100%);background-attachment:fixed;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#99f2b6","on-error-container":"#93000a","secondary-fixed":"#d9e2ff","on-error":"#ffffff","error-container":"#ffdad6","on-background":"#0c1b35","surface-container-lowest":"#ffffff","on-surface-variant":"#434655","on-secondary-fixed":"#0d1b36","on-secondary-container":"#525f7e","surface-dim":"#ccdafd","on-tertiary":"#ffffff","on-tertiary-fixed":"#00210f","surface-container":"#e8edff","outline-variant":"#c3c5d7","inverse-primary":"#b6c4ff","primary-container":"#1f55e0","on-primary":"#ffffff","secondary-container":"#cdd9fe","primary-fixed":"#dce1ff","outline":"#747686","inverse-on-surface":"#edf0ff","surface":"#f9f9ff","surface-variant":"#d7e2ff","surface-bright":"#f9f9ff","surface-tint":"#1851dc","inverse-surface":"#22304b","on-primary-fixed-variant":"#003ab1","surface-container-highest":"#d7e2ff","primary":"#003db8","surface-container-low":"#f1f3ff","secondary-fixed-dim":"#b9c6ea","secondary":"#525e7d","tertiary-container":"#0d7141","primary-fixed-dim":"#b6c4ff","on-primary-container":"#d6ddff","background":"#f9f9ff","error":"#ba1a1a","on-secondary":"#ffffff","on-primary-fixed":"#00164f","on-tertiary-fixed-variant":"#00522d","tertiary-fixed-dim":"#81d99f","on-surface":"#0c1b35","tertiary-fixed":"#9cf6b9","surface-container-high":"#e0e8ff","on-secondary-fixed-variant":"#3a4664","tertiary":"#00562f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","gutter":"1rem","margin":"1.25rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.25rem"},"fontFamily":{"title-lg":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"title-lg":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-lg":["17px",{"lineHeight":"24px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}}</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><button aria-label="Back" class="w-12 h-12 -ml-3 flex items-center justify-center text-on-surface hover:text-primary-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><h1 class="font-title-lg text-title-lg text-on-surface truncate">Quick Preview</h1></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full flex-1 px-margin pt-16 pb-safe bg-surface/0"><div class="flex flex-col w-full relative pb-8">
+<!-- Dimmed Underlying App View (Local File List) -->
+<div aria-hidden="true" class="flex flex-col gap-space-md opacity-35 transition-opacity duration-300 pointer-events-none select-none" id="underlying-app">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-lg text-label-lg text-on-surface-variant">Recent Files</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">4 items</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- File Row 1 -->
+<div class="bg-surface/60 backdrop-blur-md rounded-xl p-4 flex items-center gap-space-md shadow-sm">
+<div class="w-11 h-11 rounded-lg bg-primary-container/15 text-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">description</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-body-md text-body-md text-on-surface truncate">Project_Brief.docx</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Today, 09:42 AM • 840 KB</span>
+</div>
+</div>
+<!-- File Row 2 (Active / Selected) -->
+<div class="bg-surface/80 backdrop-blur-md rounded-xl p-4 flex items-center gap-space-md shadow-md cursor-pointer" onclick="openPreview()">
+<div class="w-11 h-11 rounded-lg bg-error text-on-error flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-body-md text-body-md text-on-surface truncate">Notes.pdf</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Yesterday • 1.4 MB</span>
+</div>
+<span class="material-symbols-outlined text-primary-container text-[20px]">visibility</span>
+</div>
+<!-- File Row 3 -->
+<div class="bg-surface/60 backdrop-blur-md rounded-xl p-4 flex items-center gap-space-md shadow-sm">
+<div class="w-11 h-11 rounded-lg bg-tertiary-container/15 text-tertiary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">table_chart</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-body-md text-body-md text-on-surface truncate">Q3_Budget.xlsx</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Oct 18 • 2.1 MB</span>
+</div>
+</div>
+<!-- File Row 4 -->
+<div class="bg-surface/60 backdrop-blur-md rounded-xl p-4 flex items-center gap-space-md shadow-sm">
+<div class="w-11 h-11 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">article</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-body-md text-body-md text-on-surface truncate">Meeting_Transcript.txt</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Oct 15 • 42 KB</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Floating Glass Quick Preview Card -->
+<div class="relative -mt-64 z-10 transition-all duration-300 ease-out" id="preview-overlay">
+<div class="bg-surface/75 backdrop-blur-2xl rounded-[24px] shadow-xl p-5 flex flex-col gap-space-md" id="glass-card">
+<!-- Top Drag Handle -->
+<button aria-label="Pull up to expand preview" class="w-full py-2 -mt-2 flex items-center justify-center cursor-grab active:cursor-grabbing group" onclick="toggleExpand()" type="button">
+<span class="w-10 h-1.5 rounded-full bg-on-surface-variant/30 group-hover:bg-primary-container/60 transition-colors"></span>
+</button>
+<!-- Card Header: PDF Badge, Title & 48px Close Button -->
+<div class="flex items-center justify-between gap-space-sm -mt-2">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-11 h-11 rounded-xl bg-error text-on-error flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[22px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<h2 class="font-title-lg text-title-lg text-on-surface truncate">Notes.pdf</h2>
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm shrink-0">PDF</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Local • 1.4 MB • 4 pages</span>
+</div>
+</div>
+<button aria-label="Close preview" class="w-12 h-12 -mr-2 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high/70 hover:text-on-surface transition-colors shrink-0" onclick="closePreview()" type="button">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+</div>
+<!-- Clean Document Preview Snippet -->
+<div class="bg-surface-container-lowest/90 rounded-2xl p-4 shadow-sm flex flex-col gap-space-sm transition-all duration-300" id="preview-snippet">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary-container">Page 1 of 4</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Oct 24</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Design Review & Architecture Notes</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Local-first storage ensures instant document rendering without network latency. All annotations remain private on-device.
+        </p>
+<div class="flex flex-col gap-2 pt-1">
+<div class="flex items-start gap-2.5">
+<span class="w-2 h-2 rounded-full bg-primary-container mt-2 shrink-0"></span>
+<span class="font-body-md text-body-md text-on-surface">Touch targets standardized to 48px minimum across all sheets.</span>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="w-2 h-2 rounded-full bg-primary-container mt-2 shrink-0"></span>
+<span class="font-body-md text-body-md text-on-surface">Frosted glass surfaces maintain high legibility over pastel gradients.</span>
+</div>
+</div>
+<!-- Expandable extra content -->
+<div class="hidden flex-col gap-2 pt-2" id="extra-snippet">
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Next milestone: finalize gesture velocity thresholds for the pull-up reader transition and verify PDF text selection accuracy.
+          </p>
+</div>
+</div>
+<!-- Bottom Quick Actions -->
+<div class="flex items-center gap-space-sm pt-1">
+<button class="flex-1 h-12 rounded-2xl bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md hover:bg-primary transition-colors" id="expand-btn" onclick="toggleExpand()" type="button">
+<span class="material-symbols-outlined text-[20px]">open_in_full</span>
+<span id="expand-label">Open Full Reader</span>
+</button>
+<button aria-label="Share file" class="w-12 h-12 rounded-2xl bg-surface-container-low/90 text-on-surface flex items-center justify-center shadow-sm hover:bg-surface-container transition-colors shrink-0" type="button">
+<span class="material-symbols-outlined text-[20px]">ios_share</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  let isExpanded = false;
+
+  function toggleExpand() {
+    isExpanded = !isExpanded;
+    const extra = document.getElementById('extra-snippet');
+    const label = document.getElementById('expand-label');
+    if (isExpanded) {
+      extra.classList.remove('hidden');
+      extra.classList.add('flex');
+      label.textContent = 'Collapse Preview';
+    } else {
+      extra.classList.add('hidden');
+      extra.classList.remove('flex');
+      label.textContent = 'Open Full Reader';
+    }
+  }
+
+  function closePreview() {
+    const overlay = document.getElementById('preview-overlay');
+    const underlying = document.getElementById('underlying-app');
+    overlay.classList.add('opacity-0', 'translate-y-6', 'pointer-events-none');
+    underlying.classList.remove('opacity-35', 'pointer-events-none');
+    underlying.classList.add('opacity-100');
+  }
+
+  function openPreview() {
+    const overlay = document.getElementById('preview-overlay');
+    const underlying = document.getElementById('underlying-app');
+    overlay.classList.remove('opacity-0', 'translate-y-6', 'pointer-events-none');
+    underlying.classList.add('opacity-35', 'pointer-events-none');
+    underlying.classList.remove('opacity-100');
+  }
+</script></main></body></html>
+
+<!-- Tools (Light) -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>Artefact-lite</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background:linear-gradient(135deg,#D9E6FF 0%,#EADFFF 50%,#FFE6E0 100%);background-attachment:fixed;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#99f2b6","on-error-container":"#93000a","secondary-fixed":"#d9e2ff","on-error":"#ffffff","error-container":"#ffdad6","on-background":"#0c1b35","surface-container-lowest":"#ffffff","on-surface-variant":"#434655","on-secondary-fixed":"#0d1b36","on-secondary-container":"#525f7e","surface-dim":"#ccdafd","on-tertiary":"#ffffff","on-tertiary-fixed":"#00210f","surface-container":"#e8edff","outline-variant":"#c3c5d7","inverse-primary":"#b6c4ff","primary-container":"#1f55e0","on-primary":"#ffffff","secondary-container":"#cdd9fe","primary-fixed":"#dce1ff","outline":"#747686","inverse-on-surface":"#edf0ff","surface":"#f9f9ff","surface-variant":"#d7e2ff","surface-bright":"#f9f9ff","surface-tint":"#1851dc","inverse-surface":"#22304b","on-primary-fixed-variant":"#003ab1","surface-container-highest":"#d7e2ff","primary":"#003db8","surface-container-low":"#f1f3ff","secondary-fixed-dim":"#b9c6ea","secondary":"#525e7d","tertiary-container":"#0d7141","primary-fixed-dim":"#b6c4ff","on-primary-container":"#d6ddff","background":"#f9f9ff","error":"#ba1a1a","on-secondary":"#ffffff","on-primary-fixed":"#00164f","on-tertiary-fixed-variant":"#00522d","tertiary-fixed-dim":"#81d99f","on-surface":"#0c1b35","tertiary-fixed":"#9cf6b9","surface-container-high":"#e0e8ff","on-secondary-fixed-variant":"#3a4664","tertiary":"#00562f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","gutter":"1rem","margin":"1.25rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.25rem"},"fontFamily":{"title-lg":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"title-lg":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-lg":["17px",{"lineHeight":"24px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}}</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between"><h1 class="font-title-lg text-title-lg text-on-surface truncate">Tools</h1><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full flex-1 px-margin pt-16 pb-24 bg-surface/0"><div class="flex flex-col w-full gap-space-md">
+<div class="flex items-center justify-between px-space-xs">
+<p class="font-body-md text-body-md text-on-surface-variant">All processing stays on your device.</p>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/60 backdrop-blur-xl font-label-sm text-label-sm text-on-surface-variant shadow-[0_4px_12px_rgba(20,33,61,0.06)]" style="border: 1px solid rgba(255, 255, 255, 0.9);">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified_user</span>
+      Offline
+    </span>
+</div>
+<div class="grid grid-cols-2 gap-gutter w-full">
+<button class="tool-tile group flex flex-col items-start justify-between w-full min-h-[136px] p-5 rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)] text-left active:scale-[0.97] transition-all duration-200" data-desc="Combine multiple PDFs into one document." data-tool="Merge" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed-variant group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">layers</span>
+</div>
+<div class="flex flex-col gap-0.5 mt-space-md min-w-0 w-full">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Merge</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Combine PDFs</span>
+</div>
+</button>
+<button class="tool-tile group flex flex-col items-start justify-between w-full min-h-[136px] p-5 rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)] text-left active:scale-[0.97] transition-all duration-200" data-desc="Separate a PDF into individual files." data-tool="Split" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">content_cut</span>
+</div>
+<div class="flex flex-col gap-0.5 mt-space-md min-w-0 w-full">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Split</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Divide pages</span>
+</div>
+</button>
+<button class="tool-tile group flex flex-col items-start justify-between w-full min-h-[136px] p-5 rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)] text-left active:scale-[0.97] transition-all duration-200" data-desc="Reduce file size while keeping clarity." data-tool="Compress" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed-variant group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">compress</span>
+</div>
+<div class="flex flex-col gap-0.5 mt-space-md min-w-0 w-full">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Compress</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Shrink file size</span>
+</div>
+</button>
+<button class="tool-tile group flex flex-col items-start justify-between w-full min-h-[136px] p-5 rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)] text-left active:scale-[0.97] transition-all duration-200" data-desc="Fix page orientation in seconds." data-tool="Rotate" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed-variant group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">rotate_right</span>
+</div>
+<div class="flex flex-col gap-0.5 mt-space-md min-w-0 w-full">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Rotate</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Adjust orientation</span>
+</div>
+</button>
+<button class="tool-tile group flex flex-col items-start justify-between w-full min-h-[136px] p-5 rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)] text-left active:scale-[0.97] transition-all duration-200" data-desc="Save specific pages as a new PDF." data-tool="Extract pages" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">file_copy</span>
+</div>
+<div class="flex flex-col gap-0.5 mt-space-md min-w-0 w-full">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Extract pages</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Pull key pages</span>
+</div>
+</button>
+<button class="tool-tile group flex flex-col items-start justify-between w-full min-h-[136px] p-5 rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)] text-left active:scale-[0.97] transition-all duration-200" data-desc="Add a password to lock sensitive files." data-tool="Protect" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-12 h-12 rounded-xl bg-error-container flex items-center justify-center text-on-error-container group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">lock</span>
+</div>
+<div class="flex flex-col gap-0.5 mt-space-md min-w-0 w-full">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Protect</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Encrypt with password</span>
+</div>
+</button>
+<button class="tool-tile group flex flex-col items-start justify-between w-full min-h-[136px] p-5 rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)] text-left active:scale-[0.97] transition-all duration-200" data-desc="Capture paper documents with your camera." data-tool="Scan to PDF" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed-variant group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">document_scanner</span>
+</div>
+<div class="flex flex-col gap-0.5 mt-space-md min-w-0 w-full">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Scan to PDF</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Camera capture</span>
+</div>
+</button>
+<button class="tool-tile group flex flex-col items-start justify-between w-full min-h-[136px] p-5 rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)] text-left active:scale-[0.97] transition-all duration-200" data-desc="Turn photos and screenshots into a PDF." data-tool="Images to PDF" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed-variant group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">add_photo_alternate</span>
+</div>
+<div class="flex flex-col gap-0.5 mt-space-md min-w-0 w-full">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Images to PDF</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Convert gallery</span>
+</div>
+</button>
+</div>
+<div class="hidden items-center justify-between gap-space-sm p-4 rounded-[20px] bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.12)] transition-all duration-200" id="tool-toast" style="border: 1px solid rgba(255, 255, 255, 0.9);">
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate" id="tool-toast-title"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate" id="tool-toast-desc"></span>
+</div>
+<button class="shrink-0 min-h-[48px] px-4 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg active:scale-95 transition-transform" id="tool-toast-action" type="button">
+      Select
+    </button>
+</div>
+</div>
+<script>
+  (function () {
+    const tiles = document.querySelectorAll('.tool-tile');
+    const toast = document.getElementById('tool-toast');
+    const toastTitle = document.getElementById('tool-toast-title');
+    const toastDesc = document.getElementById('tool-toast-desc');
+    const toastAction = document.getElementById('tool-toast-action');
+
+    tiles.forEach((tile) => {
+      tile.addEventListener('click', () => {
+        const name = tile.getAttribute('data-tool');
+        const desc = tile.getAttribute('data-desc');
+        toastTitle.textContent = name;
+        toastDesc.textContent = desc;
+        toast.classList.remove('hidden');
+        toast.classList.add('flex');
+      });
+    });
+
+    if (toastAction) {
+      toastAction.addEventListener('click', () => {
+        toast.classList.add('hidden');
+        toast.classList.remove('flex');
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe px-margin mb-space-md pointer-events-none" data-active-classes="text-primary-container"><div class="pointer-events-auto flex justify-around items-center h-16 px-space-sm rounded-[28px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)]" style="border:1px solid rgba(255,255,255,0.9);"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="desk" href="#"><span class="material-symbols-outlined text-[24px]">home</span><span class="font-label-sm text-label-sm">Desk</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="files" href="#"><span class="material-symbols-outlined text-[24px]">folder</span><span class="font-label-sm text-label-sm">Files</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm transition-colors text-primary-container" data-path="tools" href="#"><span class="material-symbols-outlined text-[24px]">handyman</span><span class="font-label-sm text-label-sm">Tools</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-[24px]">settings</span><span class="font-label-sm text-label-sm">Settings</span></a></div></nav></body></html>
+
+<!-- Shopping List (Light) -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><title>Artefact-lite</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background:linear-gradient(135deg,#D9E6FF 0%,#EADFFF 50%,#FFE6E0 100%);background-attachment:fixed;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#99f2b6","on-error-container":"#93000a","secondary-fixed":"#d9e2ff","on-error":"#ffffff","error-container":"#ffdad6","on-background":"#0c1b35","surface-container-lowest":"#ffffff","on-surface-variant":"#434655","on-secondary-fixed":"#0d1b36","on-secondary-container":"#525f7e","surface-dim":"#ccdafd","on-tertiary":"#ffffff","on-tertiary-fixed":"#00210f","surface-container":"#e8edff","outline-variant":"#c3c5d7","inverse-primary":"#b6c4ff","primary-container":"#1f55e0","on-primary":"#ffffff","secondary-container":"#cdd9fe","primary-fixed":"#dce1ff","outline":"#747686","inverse-on-surface":"#edf0ff","surface":"#f9f9ff","surface-variant":"#d7e2ff","surface-bright":"#f9f9ff","surface-tint":"#1851dc","inverse-surface":"#22304b","on-primary-fixed-variant":"#003ab1","surface-container-highest":"#d7e2ff","primary":"#003db8","surface-container-low":"#f1f3ff","secondary-fixed-dim":"#b9c6ea","secondary":"#525e7d","tertiary-container":"#0d7141","primary-fixed-dim":"#b6c4ff","on-primary-container":"#d6ddff","background":"#f9f9ff","error":"#ba1a1a","on-secondary":"#ffffff","on-primary-fixed":"#00164f","on-tertiary-fixed-variant":"#00522d","tertiary-fixed-dim":"#81d99f","on-surface":"#0c1b35","tertiary-fixed":"#9cf6b9","surface-container-high":"#e0e8ff","on-secondary-fixed-variant":"#3a4664","tertiary":"#00562f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","gutter":"1rem","margin":"1.25rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.25rem"},"fontFamily":{"title-lg":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"title-lg":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-lg":["17px",{"lineHeight":"24px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><button aria-label="Back" class="w-12 h-12 -ml-3 flex items-center justify-center text-on-surface hover:text-primary-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><h1 class="font-title-lg text-title-lg text-on-surface truncate">Shopping List</h1></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full flex-1 px-margin pt-16 pb-safe bg-surface/0"><div class="flex flex-col w-full gap-space-md pb-space-xl pt-space-sm">
+<!-- Progress & Summary Header -->
+<div class="flex items-center justify-between px-1">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant" id="items-remaining-text">4 items left</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-lowest/60 backdrop-blur-md px-3 py-1 rounded-full shadow-[inset_0_0_0_1px_rgba(255,255,255,0.9),0_4px_12px_rgba(20,33,61,0.06)]">
+<span class="material-symbols-outlined text-[16px] text-primary-container" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-label-sm text-label-sm text-on-surface" id="progress-pill">2 / 6</span>
+</div>
+</div>
+<!-- Main Glass Card -->
+<div class="w-full bg-surface-container-lowest/60 backdrop-blur-xl rounded-[24px] p-4 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.9),0_8px_24px_rgba(20,33,61,0.10)] flex flex-col gap-1" id="shopping-list-card">
+<!-- List Container -->
+<div class="flex flex-col gap-1" id="shopping-items">
+<!-- Rice (unchecked) -->
+<label class="group flex items-center gap-space-sm min-h-[56px] px-2 rounded-xl cursor-pointer transition-colors duration-200 hover:bg-surface-container-lowest/50 active:scale-[0.99]" data-item="">
+<span class="relative flex items-center justify-center w-12 h-12 -ml-2 shrink-0">
+<input class="peer sr-only" onchange="toggleItem(this)" type="checkbox"/>
+<span class="w-6 h-6 rounded-lg bg-surface-container-lowest/80 shadow-[inset_0_0_0_2px_#434655] peer-checked:bg-primary-container peer-checked:shadow-none flex items-center justify-center transition-all duration-200 peer-checked:scale-105">
+<span class="material-symbols-outlined text-on-primary text-[18px] opacity-0 peer-checked:opacity-100 transition-opacity duration-150" style="font-variation-settings: 'wght' 600;">check</span>
+</span>
+</span>
+<span class="font-body-lg text-body-lg text-on-surface flex-1 min-w-0 truncate transition-all duration-200">Rice</span>
+</label>
+<!-- Milk (unchecked) -->
+<label class="group flex items-center gap-space-sm min-h-[56px] px-2 rounded-xl cursor-pointer transition-colors duration-200 hover:bg-surface-container-lowest/50 active:scale-[0.99]" data-item="">
+<span class="relative flex items-center justify-center w-12 h-12 -ml-2 shrink-0">
+<input class="peer sr-only" onchange="toggleItem(this)" type="checkbox"/>
+<span class="w-6 h-6 rounded-lg bg-surface-container-lowest/80 shadow-[inset_0_0_0_2px_#434655] peer-checked:bg-primary-container peer-checked:shadow-none flex items-center justify-center transition-all duration-200 peer-checked:scale-105">
+<span class="material-symbols-outlined text-on-primary text-[18px] opacity-0 peer-checked:opacity-100 transition-opacity duration-150" style="font-variation-settings: 'wght' 600;">check</span>
+</span>
+</span>
+<span class="font-body-lg text-body-lg text-on-surface flex-1 min-w-0 truncate transition-all duration-200">Milk</span>
+</label>
+<!-- Tea (checked & struck through) -->
+<label class="group flex items-center gap-space-sm min-h-[56px] px-2 rounded-xl cursor-pointer transition-colors duration-200 hover:bg-surface-container-lowest/50 active:scale-[0.99]" data-item="">
+<span class="relative flex items-center justify-center w-12 h-12 -ml-2 shrink-0">
+<input checked="" class="peer sr-only" onchange="toggleItem(this)" type="checkbox"/>
+<span class="w-6 h-6 rounded-lg bg-surface-container-lowest/80 shadow-[inset_0_0_0_2px_#434655] peer-checked:bg-primary-container peer-checked:shadow-none flex items-center justify-center transition-all duration-200 peer-checked:scale-105">
+<span class="material-symbols-outlined text-on-primary text-[18px] opacity-0 peer-checked:opacity-100 transition-opacity duration-150" style="font-variation-settings: 'wght' 600;">check</span>
+</span>
+</span>
+<span class="font-body-lg text-body-lg text-on-surface-variant line-through opacity-70 flex-1 min-w-0 truncate transition-all duration-200">Tea</span>
+</label>
+<!-- Wholemeal bread (unchecked) -->
+<label class="group flex items-center gap-space-sm min-h-[56px] px-2 rounded-xl cursor-pointer transition-colors duration-200 hover:bg-surface-container-lowest/50 active:scale-[0.99]" data-item="">
+<span class="relative flex items-center justify-center w-12 h-12 -ml-2 shrink-0">
+<input class="peer sr-only" onchange="toggleItem(this)" type="checkbox"/>
+<span class="w-6 h-6 rounded-lg bg-surface-container-lowest/80 shadow-[inset_0_0_0_2px_#434655] peer-checked:bg-primary-container peer-checked:shadow-none flex items-center justify-center transition-all duration-200 peer-checked:scale-105">
+<span class="material-symbols-outlined text-on-primary text-[18px] opacity-0 peer-checked:opacity-100 transition-opacity duration-150" style="font-variation-settings: 'wght' 600;">check</span>
+</span>
+</span>
+<span class="font-body-lg text-body-lg text-on-surface flex-1 min-w-0 truncate transition-all duration-200">Wholemeal bread</span>
+</label>
+<!-- Olive oil (checked & struck through) -->
+<label class="group flex items-center gap-space-sm min-h-[56px] px-2 rounded-xl cursor-pointer transition-colors duration-200 hover:bg-surface-container-lowest/50 active:scale-[0.99]" data-item="">
+<span class="relative flex items-center justify-center w-12 h-12 -ml-2 shrink-0">
+<input checked="" class="peer sr-only" onchange="toggleItem(this)" type="checkbox"/>
+<span class="w-6 h-6 rounded-lg bg-surface-container-lowest/80 shadow-[inset_0_0_0_2px_#434655] peer-checked:bg-primary-container peer-checked:shadow-none flex items-center justify-center transition-all duration-200 peer-checked:scale-105">
+<span class="material-symbols-outlined text-on-primary text-[18px] opacity-0 peer-checked:opacity-100 transition-opacity duration-150" style="font-variation-settings: 'wght' 600;">check</span>
+</span>
+</span>
+<span class="font-body-lg text-body-lg text-on-surface-variant line-through opacity-70 flex-1 min-w-0 truncate transition-all duration-200">Olive oil</span>
+</label>
+<!-- Apples (unchecked) -->
+<label class="group flex items-center gap-space-sm min-h-[56px] px-2 rounded-xl cursor-pointer transition-colors duration-200 hover:bg-surface-container-lowest/50 active:scale-[0.99]" data-item="">
+<span class="relative flex items-center justify-center w-12 h-12 -ml-2 shrink-0">
+<input class="peer sr-only" onchange="toggleItem(this)" type="checkbox"/>
+<span class="w-6 h-6 rounded-lg bg-surface-container-lowest/80 shadow-[inset_0_0_0_2px_#434655] peer-checked:bg-primary-container peer-checked:shadow-none flex items-center justify-center transition-all duration-200 peer-checked:scale-105">
+<span class="material-symbols-outlined text-on-primary text-[18px] opacity-0 peer-checked:opacity-100 transition-opacity duration-150" style="font-variation-settings: 'wght' 600;">check</span>
+</span>
+</span>
+<span class="font-body-lg text-body-lg text-on-surface flex-1 min-w-0 truncate transition-all duration-200">Apples</span>
+</label>
+</div>
+<!-- Empty State (hidden by default) -->
+<div class="hidden flex-col items-center justify-center py-8 px-4 text-center gap-space-sm" id="empty-state">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[24px]">shopping_basket</span>
+</div>
+<p class="font-title-lg text-title-lg text-on-surface">Everything gathered</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Add an item below whenever you think of something.</p>
+</div>
+</div>
+<!-- Clear Completed Action -->
+<div class="flex justify-end px-1">
+<button class="min-h-[48px] px-4 rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-primary-container hover:bg-surface-container-lowest/40 active:scale-95 transition-all duration-200 flex items-center gap-space-xs" id="clear-btn" onclick="clearCompleted()" type="button">
+<span class="material-symbols-outlined text-[18px]">cleaning_services</span>
+<span>Clear completed</span>
+</button>
+</div>
+<!-- Add Item Bar -->
+<form class="w-full flex items-center gap-space-sm mt-space-xs" onsubmit="addItem(event)">
+<div class="flex-1 min-w-0">
+<input aria-label="Add an item" class="w-full min-h-[48px] px-4 rounded-2xl bg-surface-container-lowest/70 backdrop-blur-xl shadow-[inset_0_0_0_1px_rgba(255,255,255,0.9),0_4px_16px_rgba(20,33,61,0.06)] font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:shadow-[inset_0_0_0_2px_#1f55e0,0_8px_24px_rgba(20,33,61,0.10)] transition-all duration-200" id="new-item-input" placeholder="Add an item..." type="text"/>
+</div>
+<button class="min-h-[48px] px-5 rounded-2xl bg-primary-container text-on-primary font-label-lg text-label-lg shadow-[0_6px_16px_rgba(31,85,224,0.28)] hover:bg-primary active:scale-95 transition-all duration-200 shrink-0 flex items-center justify-center" type="submit">
+      Add
+    </button>
+</form>
+</div>
+<script>
+  function updateCounts() {
+    const items = document.querySelectorAll('#shopping-items [data-item]');
+    const checked = document.querySelectorAll('#shopping-items [data-item] input:checked');
+    const total = items.length;
+    const done = checked.length;
+    const remaining = total - done;
+
+    const remainingText = document.getElementById('items-remaining-text');
+    const progressPill = document.getElementById('progress-pill');
+    const emptyState = document.getElementById('empty-state');
+    const clearBtn = document.getElementById('clear-btn');
+
+    if (total === 0) {
+      remainingText.textContent = 'List is empty';
+      emptyState.classList.remove('hidden');
+      emptyState.classList.add('flex');
+    } else {
+      remainingText.textContent = remaining === 1 ? '1 item left' : `${remaining} items left`;
+      emptyState.classList.add('hidden');
+      emptyState.classList.remove('flex');
+    }
+
+    progressPill.textContent = `${done} / ${total}`;
+    clearBtn.style.opacity = done > 0 ? '1' : '0.45';
+    clearBtn.disabled = done === 0;
+  }
+
+  function toggleItem(checkbox) {
+    const label = checkbox.closest('[data-item]');
+    const textSpan = label.querySelector('span:last-child');
+    if (checkbox.checked) {
+      textSpan.classList.remove('text-on-surface');
+      textSpan.classList.add('text-on-surface-variant', 'line-through', 'opacity-70');
+    } else {
+      textSpan.classList.add('text-on-surface');
+      textSpan.classList.remove('text-on-surface-variant', 'line-through', 'opacity-70');
+    }
+    updateCounts();
+  }
+
+  function clearCompleted() {
+    const checkedInputs = document.querySelectorAll('#shopping-items [data-item] input:checked');
+    checkedInputs.forEach((input) => {
+      const row = input.closest('[data-item]');
+      row.style.opacity = '0';
+      row.style.transform = 'translateX(12px)';
+      setTimeout(() => {
+        row.remove();
+        updateCounts();
+      }, 180);
+    });
+  }
+
+  function addItem(event) {
+    event.preventDefault();
+    const input = document.getElementById('new-item-input');
+    const value = input.value.trim();
+    if (!value) return;
+
+    const container = document.getElementById('shopping-items');
+    const label = document.createElement('label');
+    label.className = 'group flex items-center gap-space-sm min-h-[56px] px-2 rounded-xl cursor-pointer transition-all duration-200 hover:bg-surface-container-lowest/50 active:scale-[0.99] opacity-0 translate-y-2';
+    label.setAttribute('data-item', '');
+
+    label.innerHTML = `
+      <span class="relative flex items-center justify-center w-12 h-12 -ml-2 shrink-0">
+        <input type="checkbox" class="peer sr-only" onchange="toggleItem(this)">
+        <span class="w-6 h-6 rounded-lg bg-surface-container-lowest/80 shadow-[inset_0_0_0_2px_#434655] peer-checked:bg-primary-container peer-checked:shadow-none flex items-center justify-center transition-all duration-200 peer-checked:scale-105">
+          <span class="material-symbols-outlined text-on-primary text-[18px] opacity-0 peer-checked:opacity-100 transition-opacity duration-150" style="font-variation-settings: 'wght' 600;">check</span>
+        </span>
+      </span>
+      <span class="font-body-lg text-body-lg text-on-surface flex-1 min-w-0 truncate transition-all duration-200"></span>
+    `;
+    label.querySelector('span:last-child').textContent = value;
+
+    container.appendChild(label);
+    requestAnimationFrame(() => {
+      label.classList.remove('opacity-0', 'translate-y-2');
+    });
+
+    input.value = '';
+    updateCounts();
+  }
+
+  updateCounts();
+</script></main></body></html>
+
+<!-- Files (Light) -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>Artefact-lite</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background:linear-gradient(135deg,#D9E6FF 0%,#EADFFF 50%,#FFE6E0 100%);background-attachment:fixed;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#99f2b6","on-error-container":"#93000a","secondary-fixed":"#d9e2ff","on-error":"#ffffff","error-container":"#ffdad6","on-background":"#0c1b35","surface-container-lowest":"#ffffff","on-surface-variant":"#434655","on-secondary-fixed":"#0d1b36","on-secondary-container":"#525f7e","surface-dim":"#ccdafd","on-tertiary":"#ffffff","on-tertiary-fixed":"#00210f","surface-container":"#e8edff","outline-variant":"#c3c5d7","inverse-primary":"#b6c4ff","primary-container":"#1f55e0","on-primary":"#ffffff","secondary-container":"#cdd9fe","primary-fixed":"#dce1ff","outline":"#747686","inverse-on-surface":"#edf0ff","surface":"#f9f9ff","surface-variant":"#d7e2ff","surface-bright":"#f9f9ff","surface-tint":"#1851dc","inverse-surface":"#22304b","on-primary-fixed-variant":"#003ab1","surface-container-highest":"#d7e2ff","primary":"#003db8","surface-container-low":"#f1f3ff","secondary-fixed-dim":"#b9c6ea","secondary":"#525e7d","tertiary-container":"#0d7141","primary-fixed-dim":"#b6c4ff","on-primary-container":"#d6ddff","background":"#f9f9ff","error":"#ba1a1a","on-secondary":"#ffffff","on-primary-fixed":"#00164f","on-tertiary-fixed-variant":"#00522d","tertiary-fixed-dim":"#81d99f","on-surface":"#0c1b35","tertiary-fixed":"#9cf6b9","surface-container-high":"#e0e8ff","on-secondary-fixed-variant":"#3a4664","tertiary":"#00562f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","gutter":"1rem","margin":"1.25rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.25rem"},"fontFamily":{"title-lg":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"title-lg":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-lg":["17px",{"lineHeight":"24px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}}</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between"><h1 class="font-title-lg text-title-lg text-on-surface truncate">Files</h1><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full flex-1 px-margin pt-16 pb-24 bg-surface/0"><div class="flex flex-col w-full gap-4">
+<div class="flex items-center justify-between gap-2">
+<div class="flex items-center gap-2 min-w-0">
+<span class="material-symbols-outlined text-primary-container text-[20px]" style="font-variation-settings: 'FILL' 1;">folder_open</span>
+<span class="font-label-lg text-label-lg text-on-surface truncate">On This Device</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-lowest/75 text-on-surface-variant font-label-sm text-label-sm shadow-sm">5</span>
+</div>
+<div class="flex items-center gap-1">
+<button aria-label="Sort files" class="min-w-[48px] min-h-[48px] px-3 rounded-xl bg-surface-container-lowest/75 backdrop-blur-xl text-on-surface flex items-center justify-center gap-1.5 shadow-sm active:scale-95 transition-all" id="sort-btn" type="button">
+<span class="material-symbols-outlined text-[20px]">sort</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant" id="sort-label">Recent</span>
+</button>
+<button aria-label="Toggle list or grid view" class="min-w-[48px] min-h-[48px] rounded-xl bg-surface-container-lowest/75 backdrop-blur-xl text-on-surface flex items-center justify-center shadow-sm active:scale-95 transition-all" id="view-toggle-btn" type="button">
+<span class="material-symbols-outlined text-[22px]" id="view-toggle-icon">grid_view</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-2 overflow-x-auto pb-1 -mx-1 px-1" id="filter-tabs">
+<button class="filter-tab min-h-[48px] px-4 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg shadow-sm whitespace-nowrap active:scale-95 transition-all" data-filter="all" type="button">All</button>
+<button class="filter-tab min-h-[48px] px-4 rounded-xl bg-surface-container-lowest/75 backdrop-blur-xl text-on-surface-variant font-label-lg text-label-lg shadow-sm whitespace-nowrap active:scale-95 transition-all" data-filter="pdf" type="button">PDF</button>
+<button class="filter-tab min-h-[48px] px-4 rounded-xl bg-surface-container-lowest/75 backdrop-blur-xl text-on-surface-variant font-label-lg text-label-lg shadow-sm whitespace-nowrap active:scale-95 transition-all" data-filter="word" type="button">Word</button>
+<button class="filter-tab min-h-[48px] px-4 rounded-xl bg-surface-container-lowest/75 backdrop-blur-xl text-on-surface-variant font-label-lg text-label-lg shadow-sm whitespace-nowrap active:scale-95 transition-all" data-filter="excel" type="button">Excel</button>
+<button class="filter-tab min-h-[48px] px-4 rounded-xl bg-surface-container-lowest/75 backdrop-blur-xl text-on-surface-variant font-label-lg text-label-lg shadow-sm whitespace-nowrap active:scale-95 transition-all" data-filter="powerpoint" type="button">PowerPoint</button>
+</div>
+<div class="flex flex-col gap-3" id="files-container">
+<button class="file-card w-full text-left p-4 rounded-[24px] bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.08)] flex items-center gap-3.5 active:scale-[0.98] transition-all" data-name="Notes.pdf" data-order="1" data-size="1400" data-type="pdf" type="button">
+<div class="w-12 h-12 rounded-xl bg-error text-on-error flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-title-lg text-title-lg text-on-surface truncate">Notes.pdf</span>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">1.4 MB · Today</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] shrink-0">chevron_right</span>
+</button>
+<button class="file-card w-full text-left p-4 rounded-[24px] bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.08)] flex items-center gap-3.5 active:scale-[0.98] transition-all" data-name="Budget.xlsx" data-order="2" data-size="420" data-type="excel" type="button">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container text-on-tertiary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">table_chart</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-title-lg text-title-lg text-on-surface truncate">Budget.xlsx</span>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">420 KB · Yesterday</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] shrink-0">chevron_right</span>
+</button>
+<button class="file-card w-full text-left p-4 rounded-[24px] bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.08)] flex items-center gap-3.5 active:scale-[0.98] transition-all" data-name="Report.docx" data-order="3" data-size="890" data-type="word" type="button">
+<div class="w-12 h-12 rounded-xl bg-primary-container text-on-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">description</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-title-lg text-title-lg text-on-surface truncate">Report.docx</span>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">890 KB · 12 Oct</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] shrink-0">chevron_right</span>
+</button>
+<button class="file-card w-full text-left p-4 rounded-[24px] bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.08)] flex items-center gap-3.5 active:scale-[0.98] transition-all" data-name="Slides_Q3.pptx" data-order="4" data-size="3200" data-type="powerpoint" type="button">
+<div class="w-12 h-12 rounded-xl bg-on-error-container text-on-error flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">slideshow</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-title-lg text-title-lg text-on-surface truncate">Slides_Q3.pptx</span>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">3.2 MB · 9 Oct</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] shrink-0">chevron_right</span>
+</button>
+<button class="file-card w-full text-left p-4 rounded-[24px] bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.08)] flex items-center gap-3.5 active:scale-[0.98] transition-all" data-name="Receipt_Scan.pdf" data-order="5" data-size="610" data-type="pdf" type="button">
+<div class="w-12 h-12 rounded-xl bg-error text-on-error flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-title-lg text-title-lg text-on-surface truncate">Receipt_Scan.pdf</span>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">610 KB · 5 Oct</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] shrink-0">chevron_right</span>
+</button>
+</div>
+<div class="p-4 rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.06)] flex items-center justify-between gap-3">
+<div class="flex items-center gap-3 min-w-0">
+<svg aria-hidden="true" class="w-9 h-9 shrink-0 -rotate-90" viewbox="0 0 36 36">
+<circle class="text-surface-container-high" cx="18" cy="18" fill="none" r="14" stroke="currentColor" stroke-width="3.5"></circle>
+<circle class="text-primary-container" cx="18" cy="18" fill="none" r="14" stroke="currentColor" stroke-dasharray="88" stroke-dashoffset="68" stroke-linecap="round" stroke-width="3.5"></circle>
+</svg>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate">6.5 MB used locally</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Private · Stored on device</span>
+</div>
+</div>
+<span class="px-3 py-1.5 rounded-xl bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm shrink-0">Offline</span>
+</div>
+</div>
+<script>
+  (function () {
+    const filterTabs = document.querySelectorAll('.filter-tab');
+    const filesContainer = document.getElementById('files-container');
+    const fileCards = Array.from(document.querySelectorAll('.file-card'));
+    const viewToggleBtn = document.getElementById('view-toggle-btn');
+    const viewToggleIcon = document.getElementById('view-toggle-icon');
+    const sortBtn = document.getElementById('sort-btn');
+    const sortLabel = document.getElementById('sort-label');
+
+    let isGrid = false;
+    let sortMode = 0;
+    const sortModes = ['Recent', 'Name', 'Size'];
+
+    filterTabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const filter = tab.getAttribute('data-filter');
+        filterTabs.forEach((t) => {
+          t.classList.remove('bg-primary-container', 'text-on-primary');
+          t.classList.add('bg-surface-container-lowest/75', 'text-on-surface-variant');
+        });
+        tab.classList.remove('bg-surface-container-lowest/75', 'text-on-surface-variant');
+        tab.classList.add('bg-primary-container', 'text-on-primary');
+
+        fileCards.forEach((card) => {
+          const type = card.getAttribute('data-type');
+          if (filter === 'all' || type === filter) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    viewToggleBtn.addEventListener('click', () => {
+      isGrid = !isGrid;
+      if (isGrid) {
+        filesContainer.classList.remove('flex', 'flex-col');
+        filesContainer.classList.add('grid', 'grid-cols-2');
+        viewToggleIcon.textContent = 'view_list';
+        fileCards.forEach((card) => {
+          card.classList.remove('flex-row', 'items-center');
+          card.classList.add('flex-col', 'items-start');
+          const chevron = card.querySelector('.material-symbols-outlined:last-child');
+          if (chevron) chevron.classList.add('hidden');
+        });
+      } else {
+        filesContainer.classList.remove('grid', 'grid-cols-2');
+        filesContainer.classList.add('flex', 'flex-col');
+        viewToggleIcon.textContent = 'grid_view';
+        fileCards.forEach((card) => {
+          card.classList.remove('flex-col', 'items-start');
+          card.classList.add('flex-row', 'items-center');
+          const chevron = card.querySelector('.material-symbols-outlined:last-child');
+          if (chevron) chevron.classList.remove('hidden');
+        });
+      }
+    });
+
+    sortBtn.addEventListener('click', () => {
+      sortMode = (sortMode + 1) % sortModes.length;
+      const mode = sortModes[sortMode];
+      sortLabel.textContent = mode;
+
+      const sorted = [...fileCards].sort((a, b) => {
+        if (mode === 'Name') {
+          return a.getAttribute('data-name').localeCompare(b.getAttribute('data-name'));
+        }
+        if (mode === 'Size') {
+          return Number(b.getAttribute('data-size')) - Number(a.getAttribute('data-size'));
+        }
+        return Number(a.getAttribute('data-order')) - Number(b.getAttribute('data-order'));
+      });
+
+      sorted.forEach((card) => filesContainer.appendChild(card));
+    });
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe px-margin mb-space-md pointer-events-none" data-active-classes="text-primary-container"><div class="pointer-events-auto flex justify-around items-center h-16 px-space-sm rounded-[28px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)]" style="border:1px solid rgba(255,255,255,0.9);"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="desk" href="#"><span class="material-symbols-outlined text-[24px]">home</span><span class="font-label-sm text-label-sm">Desk</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm transition-colors text-primary-container" data-path="files" href="#"><span class="material-symbols-outlined text-[24px]">folder</span><span class="font-label-sm text-label-sm">Files</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="tools" href="#"><span class="material-symbols-outlined text-[24px]">handyman</span><span class="font-label-sm text-label-sm">Tools</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-[24px]">settings</span><span class="font-label-sm text-label-sm">Settings</span></a></div></nav></body></html>
+
+<!-- Desk (Light) -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>Artefact-lite</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background:linear-gradient(135deg,#D9E6FF 0%,#EADFFF 50%,#FFE6E0 100%);background-attachment:fixed;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#99f2b6","on-error-container":"#93000a","secondary-fixed":"#d9e2ff","on-error":"#ffffff","error-container":"#ffdad6","on-background":"#0c1b35","surface-container-lowest":"#ffffff","on-surface-variant":"#434655","on-secondary-fixed":"#0d1b36","on-secondary-container":"#525f7e","surface-dim":"#ccdafd","on-tertiary":"#ffffff","on-tertiary-fixed":"#00210f","surface-container":"#e8edff","outline-variant":"#c3c5d7","inverse-primary":"#b6c4ff","primary-container":"#1f55e0","on-primary":"#ffffff","secondary-container":"#cdd9fe","primary-fixed":"#dce1ff","outline":"#747686","inverse-on-surface":"#edf0ff","surface":"#f9f9ff","surface-variant":"#d7e2ff","surface-bright":"#f9f9ff","surface-tint":"#1851dc","inverse-surface":"#22304b","on-primary-fixed-variant":"#003ab1","surface-container-highest":"#d7e2ff","primary":"#003db8","surface-container-low":"#f1f3ff","secondary-fixed-dim":"#b9c6ea","secondary":"#525e7d","tertiary-container":"#0d7141","primary-fixed-dim":"#b6c4ff","on-primary-container":"#d6ddff","background":"#f9f9ff","error":"#ba1a1a","on-secondary":"#ffffff","on-primary-fixed":"#00164f","on-tertiary-fixed-variant":"#00522d","tertiary-fixed-dim":"#81d99f","on-surface":"#0c1b35","tertiary-fixed":"#9cf6b9","surface-container-high":"#e0e8ff","on-secondary-fixed-variant":"#3a4664","tertiary":"#00562f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","gutter":"1rem","margin":"1.25rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.25rem"},"fontFamily":{"title-lg":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"title-lg":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-lg":["17px",{"lineHeight":"24px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}}</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between"><h1 class="font-title-lg text-title-lg text-on-surface truncate">Desk</h1><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full flex-1 px-margin pt-16 pb-24 bg-surface/0"><div class="flex flex-col w-full gap-space-md pb-6">
+<section class="flex items-center justify-between pt-space-xs">
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface-variant">Wednesday, Oct 23</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface truncate">Good morning</h2>
+</div>
+<button aria-label="Search documents" class="w-12 h-12 rounded-2xl bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex items-center justify-center text-on-surface active:scale-95 transition-transform" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<span class="material-symbols-outlined text-[24px]">search</span>
+</button>
+</section>
+<section class="w-full rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl p-5 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col gap-4" style="border: 1px solid rgba(255, 255, 255, 0.9);">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-primary-container">auto_awesome</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Thought of the day</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant/80">Local Note</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface">
+      “Simplicity is about subtracting the obvious and adding the meaningful.”
+    </p>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">John Maeda</span>
+<button class="min-h-[48px] px-5 rounded-2xl bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center gap-2 shadow-[0_4px_12px_rgba(31,85,224,0.28)] active:scale-95 transition-transform" type="button">
+<span class="material-symbols-outlined text-[20px]">edit_note</span>
+<span>Write from this</span>
+</button>
+</div>
+</section>
+<section class="flex flex-col gap-3">
+<div class="flex items-center justify-between px-1">
+<h3 class="font-title-lg text-title-lg text-on-surface">Recent files</h3>
+<button class="min-h-[48px] px-2 flex items-center font-label-lg text-label-lg text-primary-container" type="button">
+        See all
+      </button>
+</div>
+<div class="grid grid-cols-3 gap-3 w-full">
+<button class="w-full rounded-[20px] bg-surface-container-lowest/60 backdrop-blur-xl p-3.5 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col items-start gap-3 text-left active:scale-95 transition-transform" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-10 h-10 rounded-xl bg-error flex items-center justify-center text-on-error">
+<span class="material-symbols-outlined text-[22px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col w-full min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate w-full">Notes.pdf</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2.4 MB</span>
+</div>
+</button>
+<button class="w-full rounded-[20px] bg-surface-container-lowest/60 backdrop-blur-xl p-3.5 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col items-start gap-3 text-left active:scale-95 transition-transform" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-10 h-10 rounded-xl bg-tertiary-container flex items-center justify-center text-on-tertiary">
+<span class="material-symbols-outlined text-[22px]">table_chart</span>
+</div>
+<div class="flex flex-col w-full min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate w-full">Budget.xlsx</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">840 KB</span>
+</div>
+</button>
+<button class="w-full rounded-[20px] bg-surface-container-lowest/60 backdrop-blur-xl p-3.5 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col items-start gap-3 text-left active:scale-95 transition-transform" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[22px]">description</span>
+</div>
+<div class="flex flex-col w-full min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate w-full">Report.docx</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">1.1 MB</span>
+</div>
+</button>
+</div>
+</section>
+<section class="flex flex-col gap-3">
+<h3 class="font-title-lg text-title-lg text-on-surface px-1">Quick actions</h3>
+<div class="grid grid-cols-2 gap-3 w-full">
+<button class="w-full min-h-[96px] rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl p-4 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col items-start justify-between text-left active:scale-95 transition-transform" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">sticky_note_2</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">Quick note</span>
+</button>
+<button class="w-full min-h-[96px] rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl p-4 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col items-start justify-between text-left active:scale-95 transition-transform" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">checklist</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">To-do list</span>
+</button>
+<button class="w-full min-h-[96px] rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl p-4 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col items-start justify-between text-left active:scale-95 transition-transform" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">shopping_bag</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">Shopping list</span>
+</button>
+<button class="w-full min-h-[96px] rounded-[24px] bg-surface-container-lowest/60 backdrop-blur-xl p-4 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex flex-col items-start justify-between text-left active:scale-95 transition-transform" style="border: 1px solid rgba(255, 255, 255, 0.9);" type="button">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">mic</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface">Voice memo</span>
+</button>
+</div>
+</section>
+<div class="flex justify-end pt-2">
+<button class="min-h-[52px] px-6 rounded-2xl bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center gap-2.5 shadow-[0_10px_24px_rgba(31,85,224,0.32)] active:scale-95 transition-transform" type="button">
+<span class="material-symbols-outlined text-[22px]">folder_open</span>
+<span>Open file</span>
+</button>
+</div>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe px-margin mb-space-md pointer-events-none" data-active-classes="text-primary-container"><div class="pointer-events-auto flex justify-around items-center h-16 px-space-sm rounded-[28px] bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_8px_24px_rgba(20,33,61,0.10)]" style="border:1px solid rgba(255,255,255,0.9);"><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm transition-colors text-primary-container" data-path="desk" href="#"><span class="material-symbols-outlined text-[24px]">home</span><span class="font-label-sm text-label-sm">Desk</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="files" href="#"><span class="material-symbols-outlined text-[24px]">folder</span><span class="font-label-sm text-label-sm">Files</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="tools" href="#"><span class="material-symbols-outlined text-[24px]">handyman</span><span class="font-label-sm text-label-sm">Tools</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[48px] min-h-[48px] px-space-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-[24px]">settings</span><span class="font-label-sm text-label-sm">Settings</span></a></div></nav></body></html>
+
+<!-- PDF Viewer (Light) -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><title>Artefact-lite</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background:linear-gradient(135deg,#D9E6FF 0%,#EADFFF 50%,#FFE6E0 100%);background-attachment:fixed;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#99f2b6","on-error-container":"#93000a","secondary-fixed":"#d9e2ff","on-error":"#ffffff","error-container":"#ffdad6","on-background":"#0c1b35","surface-container-lowest":"#ffffff","on-surface-variant":"#434655","on-secondary-fixed":"#0d1b36","on-secondary-container":"#525f7e","surface-dim":"#ccdafd","on-tertiary":"#ffffff","on-tertiary-fixed":"#00210f","surface-container":"#e8edff","outline-variant":"#c3c5d7","inverse-primary":"#b6c4ff","primary-container":"#1f55e0","on-primary":"#ffffff","secondary-container":"#cdd9fe","primary-fixed":"#dce1ff","outline":"#747686","inverse-on-surface":"#edf0ff","surface":"#f9f9ff","surface-variant":"#d7e2ff","surface-bright":"#f9f9ff","surface-tint":"#1851dc","inverse-surface":"#22304b","on-primary-fixed-variant":"#003ab1","surface-container-highest":"#d7e2ff","primary":"#003db8","surface-container-low":"#f1f3ff","secondary-fixed-dim":"#b9c6ea","secondary":"#525e7d","tertiary-container":"#0d7141","primary-fixed-dim":"#b6c4ff","on-primary-container":"#d6ddff","background":"#f9f9ff","error":"#ba1a1a","on-secondary":"#ffffff","on-primary-fixed":"#00164f","on-tertiary-fixed-variant":"#00522d","tertiary-fixed-dim":"#81d99f","on-surface":"#0c1b35","tertiary-fixed":"#9cf6b9","surface-container-high":"#e0e8ff","on-secondary-fixed-variant":"#3a4664","tertiary":"#00562f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","gutter":"1rem","margin":"1.25rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2rem","space-xs":"0.25rem"},"fontFamily":{"title-lg":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"title-lg":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-lg":["17px",{"lineHeight":"24px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><button aria-label="Back" class="w-12 h-12 -ml-3 flex items-center justify-center text-on-surface hover:text-primary-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><h1 class="font-title-lg text-title-lg text-on-surface truncate">Pdf Viewer</h1></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full flex-1 px-margin pt-16 pb-safe bg-surface/0"><div class="flex flex-col w-full gap-space-md pb-28">
+<div class="w-full flex items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex items-center gap-space-sm bg-surface/70 backdrop-blur-xl rounded-full px-3.5 py-1.5 shadow-[0_4px_16px_rgba(20,33,61,0.06)]">
+<span class="material-symbols-outlined text-[18px] text-primary-container">description</span>
+<span class="font-label-md text-label-md text-on-surface">Notes.pdf</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">1.4 MB</span>
+</div>
+<button aria-label="Search document" class="w-12 h-12 rounded-full bg-surface/70 backdrop-blur-xl shadow-[0_4px_16px_rgba(20,33,61,0.06)] flex items-center justify-center text-on-surface hover:text-primary-container transition-colors" id="search-toggle-btn" type="button">
+<span class="material-symbols-outlined text-[22px]">search</span>
+</button>
+</div>
+<div class="hidden w-full bg-surface/80 backdrop-blur-xl rounded-2xl px-4 py-2 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex items-center gap-space-sm" id="search-bar">
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">search</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none min-h-[36px]" placeholder="Find in Notes.pdf..." type="text"/>
+<button aria-label="Close search" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface" id="search-close-btn" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<article class="w-full bg-surface-container-lowest rounded-3xl shadow-[0_8px_24px_rgba(20,33,61,0.10)] p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-primary-container uppercase tracking-wider">Q3 Product Sync</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Oct 14</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Local-First Architecture & Reader Polish</h2>
+<div class="flex flex-col gap-space-sm font-body-md text-body-md text-on-surface-variant">
+<p>
+        1. <strong class="text-on-surface font-semibold">Core Rendering Pipeline:</strong> Page rasterization now completes under 45ms on mid-tier Android devices by caching adjacent viewport tiles in memory.
+      </p>
+<p>
+        2. <strong class="text-on-surface font-semibold">Annotation Storage:</strong> <span class="text-on-surface rounded px-1 py-0.5" style="background-color: rgba(253, 224, 71, 0.38);">All highlights, ink strokes, and bookmarks are serialized directly into the local SQLite store with zero background network calls.</span>
+</p>
+<p>
+        3. <strong class="text-on-surface font-semibold">Typography & Contrast:</strong> Body copy maintains a 1.45x line height with ink-navy headings to reduce eye strain during extended reading sessions.
+      </p>
+</div>
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col gap-space-xs">
+<span class="font-label-lg text-label-lg text-on-surface">Next Milestone Action Items</span>
+<ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant">
+<li class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-primary-container mt-0.5">check_circle</span>
+<span>Finalize 48px touch targets on floating toolbars</span>
+</li>
+<li class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant mt-0.5">radio_button_unchecked</span>
+<span>Verify PDF/A-2b signature embedding offline</span>
+</li>
+</ul>
+</div>
+</article>
+<div class="fixed bottom-24 left-1/2 -translate-x-1/2 z-30">
+<div class="bg-surface/80 backdrop-blur-xl rounded-full px-4 py-1.5 shadow-[0_8px_24px_rgba(20,33,61,0.10)] flex items-center gap-space-xs">
+<span class="font-label-md text-label-md text-on-surface">3 / 24</span>
+</div>
+</div>
+<nav aria-label="PDF tools" class="fixed bottom-4 left-margin right-margin z-40 bg-surface/75 backdrop-blur-xl rounded-[28px] shadow-[0_8px_24px_rgba(20,33,61,0.10)] px-2 py-1.5 flex items-center justify-between">
+<button aria-label="Pages" class="tool-btn w-12 h-12 rounded-2xl flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-primary-container transition-colors" data-tool="pages" type="button">
+<span class="material-symbols-outlined text-[22px]">grid_view</span>
+<span class="font-label-sm text-[10px] leading-none">Pages</span>
+</button>
+<button aria-label="Bookmark" class="tool-btn w-12 h-12 rounded-2xl flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-primary-container transition-colors" data-tool="bookmark" type="button">
+<span class="material-symbols-outlined text-[22px]">bookmark</span>
+<span class="font-label-sm text-[10px] leading-none">Bookmark</span>
+</button>
+<button aria-label="Highlight" aria-pressed="true" class="tool-btn w-12 h-12 rounded-2xl flex flex-col items-center justify-center gap-0.5 bg-primary-fixed/80 text-primary-container transition-colors" data-tool="highlight" type="button">
+<span class="material-symbols-outlined text-[22px]">ink_highlighter</span>
+<span class="font-label-sm text-[10px] leading-none">Highlight</span>
+</button>
+<button aria-label="Draw" class="tool-btn w-12 h-12 rounded-2xl flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-primary-container transition-colors" data-tool="draw" type="button">
+<span class="material-symbols-outlined text-[22px]">draw</span>
+<span class="font-label-sm text-[10px] leading-none">Draw</span>
+</button>
+<button aria-label="Text" class="tool-btn w-12 h-12 rounded-2xl flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-primary-container transition-colors" data-tool="text" type="button">
+<span class="material-symbols-outlined text-[22px]">title</span>
+<span class="font-label-sm text-[10px] leading-none">Text</span>
+</button>
+<button aria-label="Sign" class="tool-btn w-12 h-12 rounded-2xl flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-primary-container transition-colors" data-tool="sign" type="button">
+<span class="material-symbols-outlined text-[22px]">signature</span>
+<span class="font-label-sm text-[10px] leading-none">Sign</span>
+</button>
+</nav>
+</div>
+<script>
+  (function () {
+    const searchToggle = document.getElementById('search-toggle-btn');
+    const searchBar = document.getElementById('search-bar');
+    const searchClose = document.getElementById('search-close-btn');
+    const toolButtons = document.querySelectorAll('.tool-btn');
+
+    if (searchToggle && searchBar && searchClose) {
+      searchToggle.addEventListener('click', function () {
+        searchBar.classList.toggle('hidden');
+        if (!searchBar.classList.contains('hidden')) {
+          const input = searchBar.querySelector('input');
+          if (input) input.focus();
+        }
+      });
+
+      searchClose.addEventListener('click', function () {
+        searchBar.classList.add('hidden');
+      });
+    }
+
+    toolButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        toolButtons.forEach(function (other) {
+          other.classList.remove('bg-primary-fixed/80', 'text-primary-container');
+          other.classList.add('text-on-surface-variant');
+          other.setAttribute('aria-pressed', 'false');
+        });
+        btn.classList.remove('text-on-surface-variant');
+        btn.classList.add('bg-primary-fixed/80', 'text-primary-container');
+        btn.setAttribute('aria-pressed', 'true');
+      });
+    });
+  })();
+</script></main></body></html>

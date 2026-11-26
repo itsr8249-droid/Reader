@@ -1,0 +1,6 @@
+{
+  "name": "Reader",
+  "description": "Offline-first local workspace for PDFs, notes, voice memos, and checklists with zero internet permissions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

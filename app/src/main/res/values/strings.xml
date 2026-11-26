@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Reader</string>
+    <string name="nav_desk">Desk</string>
+    <string name="nav_files">Files</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_settings">Settings</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_search">Search documents</string>
+    <string name="cd_close_preview">Close preview</string>
+    <string name="cd_share_file">Share file</string>
+    <string name="cd_record_memo">Record voice memo</string>
+    <string name="cd_preview_voice">Preview read-aloud voice</string>
+    <string name="empty_shopping_title">Everything gathered</string>
+    <string name="empty_shopping_subtitle">Add an item below whenever you think of something.</string>
+    <string name="empty_todo_title">All caught up</string>
+    <string name="empty_todo_subtitle">Add a task below whenever something comes to mind.</string>
+</resources>
