@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     permissions:
-      contents: write # needed only to attach the APK to a GitHub Release on v* tags
+      contents: write # needed to publish the APK as a GitHub Release
     steps:
       - uses: actions/checkout@v4
 
@@ -59,8 +59,16 @@ jobs:
           path: dist/*.apk
           if-no-files-found: error
 
-      - name: Publish GitHub Release (tags only)
-        if: startsWith(github.ref, 'refs/tags/v')
+      # Every push to main (or v* tag) gets a Release with the APK attached, so you can
+      # download it from the Releases page without opening the Actions run.
+      - name: Publish GitHub Release
+        if: github.event_name == 'push'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" dist/*.apk --title "$GITHUB_REF_NAME" --generate-notes
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/* ]]; then
+            TAG="$GITHUB_REF_NAME"
+          else
+            TAG="build-${GITHUB_RUN_NUMBER}"
+          fi
+          gh release create "$TAG" dist/*.apk --target "$GITHUB_SHA" --title "Reader $TAG" --generate-notes --latest
